@@ -1,7 +1,7 @@
 import ApiUrl from './ApiUrl';
 
 const GetDashboard = (userId) => {
-    var options = {
+    const options = {
         method: 'GET',
         headers: new Headers({ 'x-user-id': userId })
     }
