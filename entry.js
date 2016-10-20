@@ -1,1 +1,4 @@
-alert('module bundelen werkt');
+// Uncaught SyntaxError: Unexpected token import
+import BootstrapApplication from './app/bootstrapper';
+
+BootstrapApplication();
